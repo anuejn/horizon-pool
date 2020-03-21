@@ -1,6 +1,6 @@
 {
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "142ef0ff-30ee-41a8-b0ef-2ffb76c6503d",
     "dimensions": {
         "19e0383f-0fdb-4578-be32-eedf6fc1cd2b": {
             "label_distance": 2570000,
@@ -46,7 +46,17 @@
     "keepouts": {},
     "lines": {},
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "142ef0ff-30ee-41a8-b0ef-2ffb76c6503d": {
+            "filename": "3d_models/connector/usb/cui/CUI_DEVICES_UJ31-CH-3-SMT-TR.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": -4100000,
+            "yaw": 16384,
+            "z": 1600000
+        }
+    },
     "name": "UJ31-CH-3-SMT-TR",
     "pads": {
         "003fdbff-00c4-484f-b2d7-9a351a45c54b": {
@@ -79,7 +89,7 @@
                 "mirror": false,
                 "shift": [
                     4330000,
-                    -4500000
+                    -6660000
                 ]
             }
         },
@@ -522,7 +532,7 @@
                 "mirror": false,
                 "shift": [
                     -4330000,
-                    -4500000
+                    -6660000
                 ]
             }
         }
