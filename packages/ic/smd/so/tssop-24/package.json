@@ -1,149 +1,7 @@
 {
-    "_imp": {
-        "grid_spacing": 1250000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "97b5dad0-5138-46f0-afdf-f09fd75e3e43",
+    "dimensions": {},
     "junctions": {
         "046e1eda-f213-4e90-9fde-2029e81df3fb": {
             "position": [
@@ -182,6 +40,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "2a312709-b961-453a-940e-c00d1441db8c": {
             "from": "7c127682-a7d1-4984-84fa-e757d89480e0",
@@ -209,7 +68,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "97b5dad0-5138-46f0-afdf-f09fd75e3e43": {
+            "filename": "3d_models/ic/so/PW0024A.stp",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "TSSOP-24",
     "pads": {
         "0184b215-50a3-4fea-a50a-56f6bc4504a2": {
@@ -784,6 +653,7 @@
     ],
     "texts": {
         "a5d075d7-2059-4e52-bacb-2779715e8f6b": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -800,6 +670,7 @@
             "width": 150000
         },
         "b36f42e6-09c1-4c29-aafb-a007a2a5d902": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
